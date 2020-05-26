@@ -174,7 +174,7 @@ def main():
     # 存放每个导师详情页地址
     professorList = []
     # 遍历 7 页导师目录页
-    for i in range(1, 7):
+    for i in range(1, 8):
         url = 'http://faculty.bjtu.edu.cn/cs/sdxx.html?page=' + str(i)
         print("正在爬取第 '%s' 页导师：" % (i))
         print(url + '\n')
